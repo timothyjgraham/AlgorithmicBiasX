@@ -6,7 +6,7 @@ To reproduce this analysis, two steps are required.
 
 1. Data collection
 
-The post IDs are available in this repository for those who have access to the X API and can collect them via that source.
+The [post IDs are available in this repository](https://github.com/timothyjgraham/AlgorithmicBiasX/blob/main/tweet_ids.csv) for those who have access to the X API and can collect them via that source.
 
 As the API access is expensive, the other way to collect the data is via scraping. I recommend using the open source toolkit Zeeschuimer, which is what we used in the report.
 Data collection using Zeeschuimer involves collecting posts by using the web search on X and scrolling through the posts. To make this easier we recommend using the FoxScroller plugin, which automatically scrolls for you at a fixed rate of pixels per second. A rate of 1100 px/s seems to be a good balance between speed and avoiding glitches with the browser loading content in the DOM. 
