@@ -20,7 +20,7 @@ There is a limitation with platform X where it has a limit to how far you can sc
 
 The Zeeschuimer tool produces data in NDJSON format. To be honest, it's a bit tricky to process this data due to the complex structure. The Python code handles all this by fetching the relevant fields from the JSON structure. So you just need to ensure the NDJSON file containing your data is in the same working directory as the code, or otherwise change the file path in the code itself.
 
-The code produces all the outputs in the report, including the diagrams. It is labelled with headings for clarity.
+The code produces all the outputs in the report, including the diagrams. It is labelled with headings for clarity. [Download the code or view it directly on Google Colab](https://github.com/timothyjgraham/AlgorithmicBiasX/blob/main/Code_for_report_A_computational_analysis_of_potential_algorithmic_bias_on_platform_X_during_the_2024_US_election.ipynb)
 
 If you have any questions please post as an Issue on this repository or contact Timothy Graham (QUT).
 
