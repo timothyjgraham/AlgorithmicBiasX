@@ -8,7 +8,7 @@ To reproduce this analysis, two steps are required.
 
 The [post IDs are available in this repository](https://github.com/timothyjgraham/AlgorithmicBiasX/blob/main/tweet_ids.csv) for those who have access to the X API and can collect them via that source.
 
-As the API access is expensive, the other way to collect the data is via scraping. I recommend using the open source toolkit Zeeschuimer, which is what we used in the report.
+As the API access is expensive, the other way to collect the data is via scraping. I recommend using the [open source toolkit Zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer), which is what we used in the report.
 Data collection using Zeeschuimer involves collecting posts by using the web search on X and scrolling through the posts. To make this easier we recommend using the FoxScroller plugin, which automatically scrolls for you at a fixed rate of pixels per second. A rate of 1100 px/s seems to be a good balance between speed and avoiding glitches with the browser loading content in the DOM. 
 
 There is a limitation with platform X where it has a limit to how far you can scroll back on a profile's timeline. I found a way to get around this by using the X advanced search. Once you hit the limit you can use an advanced search query of this pattern: (from:elonmusk until:YYYY-MM-DD), where the date is the point at which you previously got cut off. This enables loading posts from earlier in the timeline. It’s laborious but it works.
