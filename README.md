@@ -1,6 +1,6 @@
 # A Technical Study of Algorithmic Bias on X
 
-This repository contains Python code and data collection instructions for a technical report: "A computational analysis of potential algorithmic bias on platform X during the 2024 US election" (Graham &amp; Andrejevic, 2024). 
+This repository contains Python code and data collection instructions for a technical report: ["A computational analysis of potential algorithmic bias on platform X during the 2024 US election"](https://github.com/timothyjgraham/AlgorithmicBiasX/blob/3f4ca90ac156d88bdaf398caa518ac86f69c5885/A%20computational%20analysis%20of%20potential%20algorithmic%20bias%20on%20platform%20X%20during%20the%202024%20US%20election-4.pdf) (Graham &amp; Andrejevic, 2024). 
 
 To reproduce this analysis, two steps are required. 
 
